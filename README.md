@@ -41,16 +41,13 @@ Summary statistics were calculated across all manufacturing lots including the m
 <li>The results for lot 3 are opposite to the other lots.  With a p-value of .04168 which is less than our assumed significant level of 0.05 we do not have sufficient evidence to reject the null hypothesis.  In this case we would state that the two means are not statistically similar.</li>
 </ul>
 <img src="https://github.com/bedwardssmith/MechaCar_Statistical_Analysis/blob/main/Images/Deliverable3_ttest_lot3.png">  
-  
- 
 <h2>Study Design: MechaCar vs Competition</h2>
-
-<p>Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. 
-  in your study design, think critically about what metrics would be of interest to a consumer; for a few examples, cost, city or highway fuel efficiency, horse power, maintenace cost or safety rating.</p>
-  <p>In your description address the following questions:</p>
-  <p> What metric or metrics are you going to test?</p>
-  <p>What is the null hypothesis or alternative hypothesis?</p>
-  <p>What statistical test would you use to test the hypothesis? and Why?</p>
-  <p>What data is need to run the statistical test?</p>
-  
+<p>Taking into consideration economic conditions and the environmental movement the metrics of most interest to consumers are the price, maintenance cost and fuel efficiency (highway and city).</p>
+<p>In order to complete a statistical analysis we must first create our hypothesis.</p>
+<ul>
+  <li>Null hypothesis - Selling price is impacted by maintenance costs and fuel efficiency (highway and city)</li>
+  <li>Alternative hypothesis - Selling price is not impacted by maintenance costs and fuel efficiency (highway and city)</li>
+</ul>
+<p>The statistical test used to test the hypothesis would be a multiple linear regression analysis. This was chosen as it allows for multiple variables to chosen to determine their impact on the dependent variable; in this case price.</p>
+<p>In order to run the statistical test price, maintenance cost and fuel efficiency data over a sufficient period of time would be required. Example being data over a 2 year period.</p>
 
