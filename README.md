@@ -15,5 +15,30 @@
 <img src="https://github.com/bedwardssmith/MechaCar_Statistical_Analysis/blob/main/Images/Deliverable2_total_summary.png">
 <img src="https://github.com/bedwardssmith/MechaCar_Statistical_Analysis/blob/main/Images/Deliverable2_lot_summary.png">
 <br>
-
+<h2>T-Tests on Suspension Cpils</h2>
+<p>summarize your interpretation and findings for the t-test results OVERALL</p>
+<br>
+<img src="https://github.com/bedwardssmith/MechaCar_Statistical_Analysis/blob/main/Images/Deliverable3_ttest_all_lots.png">
+<br>
+<p>summarize your interpretation and findings for lot 1 results</p>
+<br>
+<img src="https://github.com/bedwardssmith/MechaCar_Statistical_Analysis/blob/main/Images/Deliverable3_ttest_lot1.png">
+<br>
+<p> summarize your interpretaiton and findings for lo2 results(/p>
+<br>
+<img src="https://github.com/bedwardssmith/MechaCar_Statistical_Analysis/blob/main/Images/Deliverable3_ttest_lot2.png">
+<br>
+<p> summarize your interpretation and findings for lot 3 results</p>
+<br>
+<img src="https://github.com/bedwardssmith/MechaCar_Statistical_Analysis/blob/main/Images/Deliverable3_ttest_lot3.png">
+<br>
+<h2>Study Design: MechaCar vs Competition</h2>
+<p>Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. 
+  in your study design, think critically about what metrics would be of interest to a consumer; for a few examples, cost, city or highway fuel efficiency, horse power, maintenace cost or safety rating.</p>
+  <p>In your description address the following questions:</p>
+  <p> What metric or metrics are you going to test?</p>
+  <p>What is the null hypothesis or alternative hypothesis?</p>
+  <p>What statistical test would you use to test the hypothesis? and Why?</p>
+  <p>What data is need to run the statistical test?</p>
+  
 
