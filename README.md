@@ -1,10 +1,13 @@
 # MechaCar_Statistical_Analysis
-
-
+AutosRU's newest prototype, the MechaCar, is suffering from production troubles which is impacting the manufacturing team's progress.  Management is looking for insights using production data for insights that may help the manufacturing team.<p>
 <h2>Linear Regression to Predict MPG</h2>
-<p>which variables/coefficients provided a non-random amount of variance tot he mpg values in the dataset?</p>
-<p>is the lsope of the linear model considered to be zero? Why or Why not?</p>
-<p>does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?</p>
+<p>We were provided a dataset contianing mpg test results for 50 prototype MechaCars.  These prototypes were produced using multiple design specifications
+  to identify ideal vehicle performance.  In the first analysis a linear regression model that predicts the mpg of MechaCar prototypes using  ve=ehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance was created.</p> 
+<ul>
+<li>In reviewing the p-values of the linear regression model (see below) we can see that vehicle length and ground clearance are statistically significant predictors of mpg, whereas, vehicle weight, spoiler angle, and AWD are not.  Note that a significance level if .05% was used.</li>
+<li>As the p-value is 5.35e-11 is less than the assumed significance level of 0.05% the slope of the linear model would not be considered to be 0.</li>
+<li>To determine whether the model effectively predicts the mpg of MechaCar prototypes we look to the R-squared value which in this case is .7149.  The closer this value is to 1 the better the predictor variables are able to predict the value of mpg.  In other words 71.49% of all mpg predictions will be determined by this model and therefore would be considered to effectively predict the mpg of MechaCar prototypes.</li>
+</ul>
 <br>
 <img src="https://github.com/bedwardssmith/MechaCar_Statistical_Analysis/blob/main/Images/Deliverable1_lm_function.png">
 <img src="https://github.com/bedwardssmith/MechaCar_Statistical_Analysis/blob/main/Images/Deliverable1_summary.png">
