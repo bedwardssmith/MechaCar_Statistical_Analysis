@@ -25,31 +25,27 @@ Summary statistics were calculated across all manufacturing lots including the m
  </ul> 
 <img src="https://github.com/bedwardssmith/MechaCar_Statistical_Analysis/blob/main/Images/Deliverable2_lot_summary.png">
 <br>
-
-
-<h2>T-Tests on Suspension Cpils</h2>
-
-<p>summarize your interpretation and findings for the t-test results OVERALL</p>
-<br>
-<img src="https://github.com/bedwardssmith/MechaCar_Statistical_Analysis/blob/main/Images/Deliverable3_ttest_all_lots.png">
-<br>
-<p>summarize your interpretation and findings for lot 1 results</p>
-<br>
-<img src="https://github.com/bedwardssmith/MechaCar_Statistical_Analysis/blob/main/Images/Deliverable3_ttest_lot1.png">
-<br>
-<p> summarize your interpretaiton and findings for lo2 results(/p>
-<br>
-<img src="https://github.com/bedwardssmith/MechaCar_Statistical_Analysis/blob/main/Images/Deliverable3_ttest_lot2.png">
-<br>
-<p> summarize your interpretation and findings for lot 3 results</p>
-<br>
-<img src="https://github.com/bedwardssmith/MechaCar_Statistical_Analysis/blob/main/Images/Deliverable3_ttest_lot3.png">
-<br>
-<h2>Study Design: MechaCar vs Competition</h2>
-<p>The thir analysis uses t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population
-  mean of 1,500 pounds per square inch ("PSI")</p>
+<h2>T-Tests on Suspension Coils</h2>
+<p>In our final analysis t-tests are performed to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per inch ("PSI").</p>
 <ul>
-<li>We first look at the t-test using data from all three manufacturing lots. Here we see that the p value is less than our assume significance level, therefore, we have sufficient evidence to reject the null hypothesis
+<li>When looking at the results including all lots we see that our p-value is .06028 which is above our assumed significance level of 0.05.  Therefore, we do not have sufficient evidence to reject the null hypothesis and therefore we would state that the two means are statistically similar. In other words, the mean of all manufacturing lots is statistically similiar to the population mean of 1,500. We also see that the mean of the sample is 1,498.78.</li>
+</ul>
+<img src="https://github.com/bedwardssmith/MechaCar_Statistical_Analysis/blob/main/Images/Deliverable3_ttest_all_lots.png">
+<ul>
+<li>In looking at the results for lot 1 we see that the p-value is 1 which is once again above our assumed significance level of 0.05.  Therefore, we do not have sufficient evidence to reject the null hypothesis and therefore we would state that the two means are statistically similar.  In other words, the mean of manufacturing lot 1 is statistically similiar to the population mean of 1,500.  We also see that the mean of the sample is 1,500.</li>
+</ul>
+<img src="https://github.com/bedwardssmith/MechaCar_Statistical_Analysis/blob/main/Images/Deliverable3_ttest_lot1.png">
+<ul>
+<li>The results for lot 2 are similiar to above in that the p-value is .6072 which is above our assumed significance level of 0.05.  Once again we do not have sufficient evidence to reject the null hypothesis and therefore we would state that the two means are statistically similar.  </li>
+</ul>
+<img src="https://github.com/bedwardssmith/MechaCar_Statistical_Analysis/blob/main/Images/Deliverable3_ttest_lot2.png">
+<ul>
+<li>The results for lot 3 are opposite to the other lots.  With a p-value of .04168 which is less than our assumed significant level of 0.05 we do not have sufficient evidence to reject the null hypothesis.  In this case we would state that the two means are not statistically similar.</li>
+</ul>
+<img src="https://github.com/bedwardssmith/MechaCar_Statistical_Analysis/blob/main/Images/Deliverable3_ttest_lot3.png">  
+  
+ 
+<h2>Study Design: MechaCar vs Competition</h2>
 
 <p>Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. 
   in your study design, think critically about what metrics would be of interest to a consumer; for a few examples, cost, city or highway fuel efficiency, horse power, maintenace cost or safety rating.</p>
