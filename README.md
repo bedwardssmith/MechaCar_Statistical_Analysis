@@ -8,10 +8,8 @@ AutosRU's newest prototype, the MechaCar, is suffering from production troubles 
 <li>As the p-value is 5.35e-11 is less than the assumed significance level of 0.05% the slope of the linear model would not be considered to be 0.</li>
 <li>To determine whether the model effectively predicts the mpg of MechaCar prototypes we look to the R-squared value which in this case is .7149.  The closer this value is to 1 the better the predictor variables are able to predict the value of mpg.  In other words 71.49% of all mpg predictions will be determined by this model and therefore would be considered to effectively predict the mpg of MechaCar prototypes.</li>
 </ul>
-<br>
 <img src="https://github.com/bedwardssmith/MechaCar_Statistical_Analysis/blob/main/Images/Deliverable1_lm_function.png">
 <img src="https://github.com/bedwardssmith/MechaCar_Statistical_Analysis/blob/main/Images/Deliverable1_summary.png">
-<br>
 <h2>Summary Statistics on Suspension Coils</h2>
 <p>The design specificaitons for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch ("PSI").
  A dataset was provided containing data across three production lots for use in determining whether the manufacturing process is consistent across the production lots.
