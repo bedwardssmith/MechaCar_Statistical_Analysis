@@ -2,7 +2,7 @@
 AutosRU's newest prototype, the MechaCar, is suffering from production troubles which is impacting the manufacturing team's progress.  Management is looking for insights using production data for insights that may help the manufacturing team.<p>
 <h2>Linear Regression to Predict MPG</h2>
 <p>We were provided a dataset contianing mpg test results for 50 prototype MechaCars.  These prototypes were produced using multiple design specifications
-  to identify ideal vehicle performance.  In the first analysis a linear regression model that predicts the mpg of MechaCar prototypes using  ve=ehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance was created.</p> 
+  to identify ideal vehicle performance.  In the first analysis a linear regression model that predicts the mpg of MechaCar prototypes using  vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance was created.</p> 
 <ul>
 <li>In reviewing the p-values of the linear regression model (see below) we can see that vehicle length and ground clearance are statistically significant predictors of mpg, whereas, vehicle weight, spoiler angle, and AWD are not.  Note that a significance level if .05% was used.</li>
 <li>As the p-value is 5.35e-11 is less than the assumed significance level of 0.05% the slope of the linear model would not be considered to be 0.</li>
@@ -25,9 +25,9 @@ Summary statistics were calculated across all manufacturing lots including the m
  </ul> 
 <img src="https://github.com/bedwardssmith/MechaCar_Statistical_Analysis/blob/main/Images/Deliverable2_lot_summary.png">
 <br>
+
+
 <h2>T-Tests on Suspension Cpils</h2>
-
-
 
 <p>summarize your interpretation and findings for the t-test results OVERALL</p>
 <br>
@@ -46,7 +46,10 @@ Summary statistics were calculated across all manufacturing lots including the m
 <img src="https://github.com/bedwardssmith/MechaCar_Statistical_Analysis/blob/main/Images/Deliverable3_ttest_lot3.png">
 <br>
 <h2>Study Design: MechaCar vs Competition</h2>
-<p>
+<p>The thir analysis uses t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population
+  mean of 1,500 pounds per square inch ("PSI")</p>
+<ul>
+<li>We first look at the t-test using data from all three manufacturing lots. Here we see that the p value is less than our assume significance level, therefore, we have sufficient evidence to reject the null hypothesis
 
 <p>Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. 
   in your study design, think critically about what metrics would be of interest to a consumer; for a few examples, cost, city or highway fuel efficiency, horse power, maintenace cost or safety rating.</p>
