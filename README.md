@@ -42,12 +42,12 @@ Summary statistics were calculated across all manufacturing lots including the m
 </ul>
 <img src="https://github.com/bedwardssmith/MechaCar_Statistical_Analysis/blob/main/Images/Deliverable3_ttest_lot3.png">  
 <h2>Study Design: MechaCar vs Competition</h2>
-<p>Taking into consideration economic conditions and the environmental movement the metrics of most interest to consumers are the price, maintenance cost and fuel efficiency (highway and city).</p>
-<p>In order to complete a statistical analysis we must first create our hypothesis.</p>
+<h4>The following statistical study is intended to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.</h4>
+<p>From a seller perspective selling price is key to profit, therefore, my study will look at whether fuel efficiency, annual maintenance costs, and saftey rating influence the price.  In order to make a fare comparison vehicles will first be placed into classes such as full size pick-ups, mid-size SUV's, etc.  Competitor data, for the past 2 years, including miles per gallon "MPG", safety ratings and annual maintenance costs will be required as well as equivalent information for MechaCar vehicles.  MPG, safety ratings and annual maintenance costs as these are becoming increasingly important to consumers.</p>
+<p>Having determined the data requirements the next step is stating the null and alternative hypothesis:</p>
 <ul>
-  <li>Null hypothesis - Selling price is impacted by maintenance costs and fuel efficiency (highway and city)</li>
-  <li>Alternative hypothesis - Selling price is not impacted by maintenance costs and fuel efficiency (highway and city)</li>
+  <li>Null hypothesis - selling price is not affected by MPG, annual maintenance costs and saftey rating</li>
+  <li>Alternative hypothesis - selling price is affected by MPG, annual maintenance costs and saftey rating</li>
 </ul>
-<p>The statistical test used to test the hypothesis would be a multiple linear regression analysis. This was chosen as it allows for multiple variables to chosen to determine their impact on the dependent variable; in this case price.</p>
-<p>In order to run the statistical test price, maintenance cost and fuel efficiency data over a sufficient period of time would be required. Example being data over a 2 year period.</p>
-
+<p>To test the hypothesis a multiple linear regression analysis would be used.  Due to there being three variables the multiple linear regression analysis was the best fit.  This analysis will provide us whether the variables have a signficant impact on the selling price of the vehicle.</p>
+ 
